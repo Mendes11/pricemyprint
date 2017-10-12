@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.ProjectComponentsFragment">
+    <item
+        android:id="@+id/action_rateApp"
+        android:orderInCategory="0"
+        android:title="@string/action_rate"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_rate_white_18dp"/>
+    <item
+        android:id="@+id/action_quickprice"
+        android:orderInCategory="1"
+        android:title="@string/action_quickprice"
+        app:showAsAction="always"
+        android:icon="@drawable/quickprice2"/>
+    <!--item
+        android:id="@+id/action_import_piece"
+        android:orderInCategory="100"
+        android:title="@string/action_import_piece"
+        app:showAsAction="never" /-->
+    <item
+        android:id="@+id/action_import_config"
+        android:orderInCategory="101"
+        android:title="@string/action_import_config"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_import_material"
+        android:orderInCategory="102"
+        android:title="@string/action_import_material"
+        app:showAsAction="never" />
+
+</menu>

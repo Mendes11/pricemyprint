@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Price My Print</string>
+    <string name="action_rate">Rate this App!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_materials">Filaments</string>
+    <string name="action_quickMenu">QuickPrice Settings</string>
+    <string name="action_import_piece">Import Prints</string>
+    <string name="action_import_config">Import Configurations</string>
+    <string name="action_import_material">Import Materials</string>
+    <string name="action_quickprice">Quick Price</string>
+    <string name="new_project_name">Project Name</string>
+    <string name="confirmar">Confirm</string>
+    <string name="cancelar">Cancel</string>
+    <string name="new_project_dialog_title">Create New Project</string>
+    <string name="edit_project_dialog_title">Edit Project</string>
+    <string name="adicionar_nova_peca">Add New Part</string>
+    <string name="total">Total: %1$s</string>
+    <string name="nome_material">Material Name</string>
+    <string name="densidade">Density</string>
+    <string name="diametro">Diameter</string>
+    <string name="preco">Price per Kg</string>
+    <string name="nome_peca">Part Name</string>
+    <string name="peso">Weight (g)</string>
+    <string name="comprimento">Length (mm)</string>
+    <string name="tempo">Print Time: </string>
+    <string name="filamento">Filament :</string>
+    <string name="quickprice_title">Quick Price</string>
+    <string name="novo">New</string>
+    <string name="configuracao">Setting :</string>
+    <string name="nome_configuracao">Setting Name</string>
+    <string name="new_material_dialog_title">Create New Material</string>
+    <string name="edit_material_dialog_title">Edit Material</string>
+    <string name="new_piece_dialog_title">Create New Part</string>
+    <string name="edit_piece_dialog_title">Edit Part</string>
+    <string name="preco_impressora">Printer Price [$]</string>
+    <string name="consumo_impressora">Energy Consumption [W]</string>
+    <string name="tarifa">Tariff per KWh [$]</string>
+    <string name="reparo">Repairs:</string>
+    <string name="quantidade">Quantity: %1$d</string>
+    <string name="layout_quantidade">Quantity: </string>
+    <string name="hora_trabalho">Hour of Work [$]</string>
+    <string name="falhas">Failures: </string>
+    <string name="media_uso">Average Use [h]</string>
+    <string name="anos_uso">Lifespan [years]</string>
+    <string name="taxa_lucro">Selling Profit:</string>
+    <string name="anos">years</string>
+    <string name="salvar">Save</string>
+    <string name="help_preco" formatted="false">It\'s your printer\'s final price. Eg. $2200,00.\nThis value will be used to account the usage of your printer and its repair rate.</string>
+    <string name="help_consumo">Supply consumption of your printer. Eg. 360W.\nYou just have to look to the power source of your printer and inform the power consumption or, knowing the voltage and current values, multiply them.</string>
+    <string name="help_tarifa">kWh informed at your electricity bill. Eg. $0,60 per kWh.</string>
+    <string name="help_reparos" formatted="false">% of the printer\'s cost destined to repairs throughout its lifespan.\nEg. A printer that has 10.000 hours with 10% of its cost destined to repairs. After printing a 2 hour print will add a value of (2/10.000)*(10% of printer cost)</string>
+    <string name="help_hora_trabalho">In case you\'ve dedicated yourself only to the print while printing, your time is also accounted to the final price. That is, put here how much your time while printing is worth.</string>
+    <string name="help_falhas">Percentage of the final value for failures.</string>
+    <string name="help_media_uso">Calculation for the lifespan in hours. Eg. With an average use of 4h/day and informing that in the lifespan item [years] the printer will last 3 years you have:\nLifespan_hours = 4h*365days*3years = 4380h of lifespan in hours.</string>
+    <string name="help_vida_util">Time in years that you imagine your printer will last accounting the average daily use above.</string>
+    <string name="help_lucro" formatted="false">% Of Profit to be obtained in the final price of the printed part.\n The profit calculation is given as follows:\n\n\t Profit = (Sale-Cost) / Sale\n\nThis way it can not be 100% since the printed part cost must be zero for that to happen.</string>
+    <string name="editar">Edit</string>
+    <string name="remover">Delete</string>
+    <string name="desc_selected">" Selected"</string>
+    <string name="menu_editar">Edit</string>
+    <string name="menu_remover">Delete</string>
+    <string name="menu_detalhes">Details</string>
+    <string name="confirmar_text">Do you really wish to proceed with this operation?</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="delete_title">Delete Item</string>
+    <string name="delete_confirmation">Item removed with success.</string>
+    <string name="configuracoes_title">Price My Print - Settings</string>
+    <string name="nova_configuracao">New Setting</string>
+    <string name="currency">$</string>
+    <string name="configuracoes_save_success">Setting Saved.</string>
+    <string name="item_save_success">Item Saved with success.</string>
+    <string name="take_picture">Take a Picture</string>
+    <string name="select_picture">Select from Gallery</string>
+    <string name="remove_picture">Remove Picture</string>
+    <!-- Strings de Erros -->
+    <!-- Activity Peca -->
+    <string name="new_piece_error_1">Warning, fill in the fields correctly.</string>
+    <string name="new_piece_error_2">Error inserting the print part.</string>
+    <!-- Erros em Geral-->
+    <string name="pricing_lucro" formatted="false">Warning, % of profit can\'t be lower than 0 or higher or equal to 100%.</string>
+    <string name="default_error">An error has occurred, try restarting the app.</string>
+    <string name="default_db_error">Could not perform this operation, please check inserted data.</string>
+    <string name="take_photo_error">Error creating photo TEMP file.</string>
+    <string name="no_camera_error">Could not find a Camera App.</string>
+    <!-- DB errors -->
+    <string name="material_delete_error">Could not delete the material.\nIf there are print parts that use it, you have to delete these first.</string>
+    <string name="configuration_delete_error">Could not delete the setting.\nIf there are print parts that use it, you have to delete these first.</string>
+    <string name="projeto_delete_error">Could not delete the project. Try restarting the app.</string>
+    <string name="peca_delete_error1">Could not delete the print part, try restarting the app.</string>
+    <string name="peca_delete_error2">Could not delete the project\'s print part, try restarting the app.</string>
+    <!-- String de Primeiro Acesso -->
+    <string name="first_access_title">Welcome!!</string>
+    <string name="first_access_message">Welcome to Price my Print\n\n\tCreate your project and add printed parts to it in a simple way. The printed parts will be precified according to the material and setting used.\n\tTo alter the material and/or the setting that are used to precify the printed part, just go to the menu in the upper right corner.\n\nEnjoy!</string>
+    <string name="adm_message_title_1">Thanks for using Price My Print!</string>
+    <string name="adm_message_1"> Added a new option to price your print based on its weight in grams instead of its lenght in mm because of some users that asked me for this feature. \n Another new feature is the profit based on the print cost, you can check it at settings screen, also click on its help button to clarify its usage.\n\n Again, thanks and stay alert because until the end of the month I hope to finish a hole new layout with other new features!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="config_default_name">My Setting 1</string>
+    <string name="campo_incorreto">Warning, fill in the fields correctly.</string>
+    <!-- String do QuickPrice -->
+    <string name="quickprice_dialog_title">Quick Price</string>
+    <string name="quickprice_dialog_message">This print\'s price is: %1$s \nWould you like to add it to a project?</string>
+    <string name="quickprice_dialog_add">Add to a Project</string>
+    <string name="quickprice_dialog_close">Close</string>
+    <string name="pickproject_dialog_title">Pick a Project</string>
+    <string name="new_project">New Project</string>
+    <!-- PricinDetail Strings-->
+    <string name="filament_price_detail">Filament Price: %1$s\n</string>
+    <string name="depreciation_price_detail">Depreciation Price: %1$s\n</string>
+    <string name="energy_price_detail">Energy Consumption Price: %1$s\n</string>
+    <string name="repair_price_detail">Repairs tax Price: %1$s\n</string>
+    <string name="hour_work_price_detail">$/work Price: %1$s\n</string>
+    <string name="failures_price_detail">Failures Price: %1$s\n</string>
+    <string name="total_cost_price_detail">Print Cost: %1$s\n</string>
+    <string name="profit_price_detail">Profit: %1$s\n</string>
+    <string name="total_price_detail">\nFinal Price: %1$s\n</string>
+    <!-- String para o tabLayout -->
+    <string name="tab_piece_title">Parts</string>
+    <string name="tab_configuration_title">Settings</string>
+    <string name="tab_material_title">Materials</string>
+    <!-- String para a Intro -->
+    <string name="action_tutorial">Tutorial</string>
+    <string name="intro_title_1">New Price My Print</string>
+    <string name="intro_message_1">Continue the Tutorial to understand the new App.</string>
+    <string name="intro_title_2">Projects Screen</string>
+    <string name="intro_message_2">This is the Projects screen, by clicking "+" you can add a new Project\nNow it is possible to add images too!</string>
+    <string name="intro_title_3">Project Components Screen - Parts</string>
+    <string name="intro_message_3">Here are all your project components, starting with the main one, the print Parts!\nNotice that it is also possible to add images too! :)</string>
+    <string name="intro_title_4">Project Components Screen - Settings</string>
+    <string name="intro_message_4">One of the biggest changes is that every project has its own Settings now, allowing changes that affects only the project selected!</string>
+    <string name="intro_title_5">Project Components Screen - Materials</string>
+    <string name="intro_message_5">Same as Settings, each project has its own materials, allowing changes that affects only the project selected!</string>
+    <string name="intro_title_6">Import Settings/Materials</string>
+    <string name="intro_message_6">To quicken the project creation, you can import from previous projects its settings and materials.</string>
+    <string name="intro_error">There\'s been an Out of Memory error due to the images from The intro. =\\</string>
+</resources>

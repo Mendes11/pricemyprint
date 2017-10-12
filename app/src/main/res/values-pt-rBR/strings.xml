@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Price My Print</string>
+    <string name="action_rate">Dê sua Nota!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_materials">Filamentos</string>
+    <string name="action_quickMenu">Configurações QuickPrice</string>
+    <string name="action_quickprice">Quick Price</string>
+    <string name="action_import_piece">Importar Peças</string>
+    <string name="action_import_config">Importar Configurações</string>
+    <string name="action_import_material">Importar Materiais</string>
+    <string name="new_project_name">Nome do Projeto</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="new_project_dialog_title">Criar Novo Projeto</string>
+    <string name="edit_project_dialog_title">Editar Projeto</string>
+    <string name="adicionar_nova_peca">Adionar Nova Peça</string>
+    <string name="total">Total: %1$s</string>
+    <string name="nome_material">Nome do Material</string>
+    <string name="densidade">Densidadade</string>
+    <string name="diametro">Diametro</string>
+    <string name="preco">Preco por Kg</string>
+    <string name="nome_peca">Nome da Peca</string>
+    <string name="peso">Peso (g)</string>
+    <string name="comprimento">Comprimento (mm)</string>
+    <string name="quantidade">Qntd: %1$d</string>
+    <string name="layout_quantidade">Quantidade: </string>
+    <string name="tempo">Tempo de Impressão: </string>
+    <string name="filamento">Filamento :</string>
+    <string name="novo">Novo</string>
+    <string name="anos">anos</string>
+    <string name="configuracao">Configuração :</string>
+    <string name="nome_configuracao">Nome da Configuração</string>
+    <string name="new_material_dialog_title">Criar Novo Material</string>
+    <string name="edit_material_dialog_title">Editar Material</string>
+    <string name="new_piece_dialog_title">Criar Nova Peça</string>
+    <string name="edit_piece_dialog_title">Editar Peça</string>
+    <string name="preco_impressora">Preço Impressora [R$]</string>
+    <string name="consumo_impressora">Consumo [W]</string>
+    <string name="tarifa">Tarifa por KWh [R$]</string>
+    <string name="reparo">Reparos:</string>
+    <string name="hora_trabalho">Hora Trabalho [R$]</string>
+    <string name="falhas">Falhas: </string>
+    <string name="quickprice_title">Quick Price</string>
+    <string name="media_uso">Média Uso [h]</string>
+    <string name="anos_uso">Vida útil [anos]</string>
+    <string name="taxa_lucro">Lucro de Venda:</string>
+    <string name="salvar">Salvar</string>
+    <string name="help_preco">Preço final da sua impressora. EX: R$2200,00.\nEste valor será usado para contabilizar no desgaste da sua impressora e para taxa de reparos.</string>
+    <string name="help_consumo">Consumo da fonte da sua impressora. Ex: 360W.\nBasta olhar a fonte da sua impressora e informar o consumo dela ou, sabendo-se a tensão e corrente, multiplique-os.</string>
+    <string name="help_tarifa">Tarifa de kWh fornecida na sua conta de luz. Ex: R$0,60 por kWh.</string>
+    <string name="help_reparos" formatted="false">% do valor total da impressora destinado a reparos ao longo da sua vida útil.\nEx: Uma impressora de 10.000 horas de vida útil com 10% para reparos, em uma peça de 2h irá adicionar um valor de (2/10.000)* (10% do valor da impressora) </string>
+    <string name="help_hora_trabalho">Caso você trabalhe apenas nisso, seu tempo também é contabilizado. Ou seja, coloque aqui o quanto vale o seu tempo gasto ao longo do tempo de impressão da peça.</string>
+    <string name="help_falhas">Porcentagem do valor final da peça destinado a falhas.</string>
+    <string name="help_media_uso">Conta destinada ao cálculo de vida útil da impressora em horas. Ex: Com uma média de uso de 4h/dia e inserindo que no item vida útil [anos] a impressora durará 3 anos tem-se:\nVidaUtil_horas = 4h*365dias*3anos = 4380h de vida útil.</string>
+    <string name="help_vida_util">Tempo em anos que você imagina que a impressora irá durar contando com a média de uso diário acima.</string>
+    <string name="help_lucro" formatted="false">% de Lucro que se deseja obter no preço final da peça.\n O cálculo do lucro é dado da seguinte maneira:\n\n\t Lucro = (Venda-Custo)/Venda\n\nDesta Forma o mesmo não pode ser 100% visto que para isto o custo deveria ser zero.</string>
+    <string name="editar">Editar</string>
+    <string name="remover">Remover</string>
+    <string name="desc_selected">" Selecionados"</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_remover">Remover</string>
+    <string name="menu_detalhes">Details</string>
+    <string name="confirmar_text">Deseja Realmente proceder com a operação?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="delete_title">Deletar Item</string>
+    <string name="delete_confirmation">Item removido com sucesso.</string>
+    <string name="configuracoes_title">Price My Print - Configurações</string>
+    <string name="nova_configuracao">Nova Configuração</string>
+    <string name="currency">R$</string>
+    <string name="configuracoes_save_success">Configurações Salvas.</string>
+    <string name="item_save_success">Item Salvo com sucesso.</string>
+    <string name="take_picture">Tirar Foto</string>
+    <string name="select_picture">Selecionar da Galeria</string>
+    <string name="remove_picture">Remover Imagem</string>
+    <!-- Strings de Erros -->
+    <!-- Activity Peca -->
+    <string name="new_piece_error_1">Atenção, preencha os campos adequadamente.</string>
+    <string name="new_piece_error_2">Erro ao inserir peça.</string>
+    <!-- Erros em geral -->
+    <string name="pricing_lucro" formatted="false">Atenção, % de lucro não pode ser menor que 0 ou maior ou igual a 100.</string>
+    <string name="default_error">Houve um erro na operação, experimente reiniciar o aplicativo.</string>
+    <string name="default_db_error">Não foi possível realizar a operação, verifique os dados inseridos.</string>
+    <string name="take_photo_error">Erro ao criar arquivo TEMP para a foto.</string>
+    <string name="no_camera_error">Não foi possível encontrar um app de câmera.</string>
+    <!-- DB errors -->
+    <string name="material_delete_error">Não foi possível deletar o Material.\nSe houverem peças que utilizam-no, estas terão de ser deletadas primeiro.</string>
+    <string name="configuration_delete_error">Não foi possível deletar a Configuração.\nSe houverem peças que utilizam-na, estas devem ser excluídas préviamente.</string>
+    <string name="projeto_delete_error">Não foi possível deletar o projeto, experimente reiniciar o aplicativo.</string>
+    <string name="peca_delete_error1">Não foi possível deletar esta peça, experimente reiniciar o aplicativo.</string>
+    <string name="peca_delete_error2">Não foi possível deletar as peças do projeto, experimente reiniciar o aplicativo.</string>
+    <!-- String de Primeiro Acesso -->
+    <string name="first_access_title">Bem Vindo!!</string>
+    <string name="first_access_message">Bem vindo ao Price my Print\n\n\tCrie seu projeto e adicione peças a ele de forma simples. As peças serão precificadas de acordo com o material usado e as configurações cadastradas.\n\tPara alterar o material e/ou as configurações que incluem valor de impressora e outros parâmetros de precificação, basta ir ao menu localizado no canto superior direito.\n\nAproveite!</string>
+    <string name="adm_message_title_1">Obrigado por utilizar o Price My Print!</string>
+    <string name="adm_message_1"> Fora adicionada a opção de se precificar as peças a partir de seu peso em gramas ao invés do comprimento em mm, atendendo à pedidos de usuários.\n Outra funcionalidade adicionada é a definição de um lucro com base no preço de custo da peça, confira mais na tela de configurações!.\n\n Novamente, muito obrigado e fiquem atentos que até o próximo mês espero terminar um layout completamente novo e com mais funcionalidades!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="config_default_name">Minha Config 1</string>
+    <string name="campo_incorreto">Atenção, preencha o campo corretamente.</string>
+    <!-- String do QuickPrice -->
+    <string name="quickprice_dialog_title">Quick Price</string>
+    <string name="quickprice_dialog_message">O preço desta peça é de: %1$s \nGostaria de adiciona-la para um projeto?</string>
+    <string name="quickprice_dialog_add">Adicionar para Projeto</string>
+    <string name="quickprice_dialog_close">Fechar</string>
+    <string name="pickproject_dialog_title">Escolha um Projeto</string>
+    <string name="new_project">Novo Projeto</string>
+    <!-- String do PricinDetail -->
+    <string name="filament_price_detail">Preço do Filamento: %1$s\n</string>
+    <string name="depreciation_price_detail">Preço de Depreciação: %1$s\n</string>
+    <string name="energy_price_detail">Preço de Consumo Elétrico: %1$s\n</string>
+    <string name="repair_price_detail">Preço para Reparos: %1$s\n</string>
+    <string name="hour_work_price_detail">Preço de Hora Trabalho: %1$s\n</string>
+    <string name="failures_price_detail">Preço de Falhas: %1$s\n</string>
+    <string name="total_cost_price_detail">Custo Final: %1$s\n</string>
+    <string name="profit_price_detail">Valor de Lucro: %1$s\n</string>
+    <string name="total_price_detail">\nValor Final: %1$s\n</string>
+    <!-- String para o tabLayout -->
+    <string name="tab_piece_title">Peças</string>
+    <string name="tab_configuration_title">Configurações</string>
+    <string name="tab_material_title">Materiais</string>
+    <!-- String para a Intro -->
+    <string name="action_tutorial">Tutorial</string>
+    <string name="intro_title_1">Novo Price My Print</string>
+    <string name="intro_message_1">Continue o Tutorial para entender o novo App.</string>
+    <string name="intro_title_2">Tela de Projetos</string>
+    <string name="intro_message_2">Esta é a tela de Projetos, clicando em + você pode adicionar um novo projeto.\nAgora é possível adicionar fotos também!</string>
+    <string name="intro_title_3">Tela de Componentes do Projeto - Peças</string>
+    <string name="intro_message_3">Aqui estão todos os componentes do seu projeto, começando pelo principal, as peças!\nNote que também é possível adicionar fotos a elas! :)</string>
+    <string name="intro_title_4">Tela de Componentes do Projeto - Configurações</string>
+    <string name="intro_message_4">Uma das maiores mudanças é que agora cada projeto possui a sua própria configuração, permitindo alterções que afetem apenas o projeto em questão!</string>
+    <string name="intro_title_5">Tela de Componentes do Projeto - Materiais</string>
+    <string name="intro_message_5">Igualmente às configurações, cada projeto possui seu próprio material, permitindo alterções que afetem apenas o projeto em questão.</string>
+    <string name="intro_title_6">Importar Configurações/Material</string>
+    <string name="intro_message_6">Para agilizar a criação de um novo projeto, importe de projetos anteriores as configurações e materiais.</string>
+    <string name="intro_error">Houve um erro de falta de memória para as imagens da introdução. =\/ </string>
+</resources>
